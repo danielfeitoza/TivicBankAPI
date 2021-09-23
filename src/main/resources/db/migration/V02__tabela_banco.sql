@@ -1,0 +1,6 @@
+CREATE TABLE banco(
+	id BIGINT(20)  PRIMARY KEY AUTO_INCREMENT,
+	nome_banco VARCHAR(40) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO banco(nome_banco) VALUES('Banco Santander');
